@@ -33,7 +33,7 @@ workout_sessions_schema = WorkoutSessionSchema(many=True)
 def get_db_connection():
     db_name = "gym_db"
     user = "root"
-    password = "Ibewlu332$@$!!"
+    password = ""
     host = "localhost"
 
     try:
